@@ -14,4 +14,7 @@
 
 // DOCUMENT OBJECT MODEL (DOM)
 
-document.getElementById('message').textContent = 'Hello'
+// document.getElementById('message').textContent = 'Hello'
+
+// LENGTH CONVERTER 
+

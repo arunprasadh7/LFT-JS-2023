@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature converter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Temperature converter</h2>
+
+      <!-- celsius to farenheit  -->
+      <label for="inputcelsius">Enter Temperature in Celsius</label>
+      <input type="text" name="inputcelsius" id="celsiusVal" />
+      <button id="convertbtn" type="button" onclick="convert()">
+        Convert to Celsius
+      </button>
+      <br />
+      <br />
+      <!-- farenheit to celsius  -->
+      <label for="inputfarenheit">Enter Temperature in Farenheit</label>
+      <input type="text" name="inputfarenheit" id="farenheitVal" />
+      <button type="button" onclick="farenheit()">Convert to Farenheit</button>
+      <p id="displayResult"></p>
+    </div>
+    <!-- js files  -->
+    <script src="script.js"></script>
+  </body>
+</html>
