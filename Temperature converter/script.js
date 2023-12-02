@@ -16,3 +16,4 @@ function farenheit() {
   document.getElementById('displayResult').textContent = `Temperature is ${celsius.toFixed(2)} C`
   
 }
+
